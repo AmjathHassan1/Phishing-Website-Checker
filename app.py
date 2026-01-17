@@ -95,4 +95,5 @@ def index():
     return render_template('index.html', prediction_text=prediction_text, features=FEATURE_NAMES)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    # app.run(debug=True, port=5000)
+    app.run()
